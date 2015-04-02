@@ -1,5 +1,7 @@
-package com.umpay.viewpager;
+package com.rgz.viewpager;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
@@ -18,6 +20,10 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("");
+        Dialog dialog = builder.create();
 
         // set up ViewPager
         mCustomPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager(), this);

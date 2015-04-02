@@ -1,4 +1,4 @@
-package com.umpay.viewpager;
+package com.rgz.viewpager;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

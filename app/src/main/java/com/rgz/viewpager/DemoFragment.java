@@ -1,4 +1,4 @@
-package com.umpay.viewpager;
+package com.rgz.viewpager;
 
 import android.app.Activity;
 import android.os.Bundle;
